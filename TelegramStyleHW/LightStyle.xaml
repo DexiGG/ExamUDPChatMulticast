@@ -1,0 +1,49 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:TelegramStyleHW">
+    <Style TargetType="DockPanel">
+        <Style.Setters>
+            <Setter Property="Background" Value="#FF0F8BB9"/>
+        </Style.Setters>
+    </Style>
+
+    <Style TargetType="Grid">
+        <Style.Setters>
+            <Setter Property="Background" Value="White"/>
+        </Style.Setters>
+    </Style>
+
+    <Style TargetType="TextBlock">
+        <Style.Setters>
+            <Setter Property="Foreground" Value="#FFACACAC"/>
+        </Style.Setters>
+    </Style>
+
+    <Style TargetType="ListBox">
+        <Style.Setters>
+            <Setter Property="Background" Value="White"/>
+        </Style.Setters>
+    </Style>
+
+    <Style TargetType="Label">
+        <Style.Setters>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Foreground" Value="Black"/>
+        </Style.Setters>
+    </Style>
+
+    <Style TargetType="TextBox">
+        <Style.Setters>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Foreground" Value="#FF515151"/>
+        </Style.Setters>
+    </Style>
+
+    <Style TargetType="Button">
+        <Style.Setters>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Foreground" Value="#FF0E97CB"/>
+        </Style.Setters>
+    </Style>
+
+</ResourceDictionary>
